@@ -1,3 +1,5 @@
+![Task](Task-project.png)
+
 # Bafko — Görev Yönetimi
 
 Bafko, görevleri tek bir çalışma alanında oluşturmayı, takip etmeyi ve tamamlandı olarak işaretlemeyi sağlayan modern ve responsive bir görev yönetimi uygulamasıdır.
