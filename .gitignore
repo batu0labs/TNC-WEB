@@ -1,0 +1,31 @@
+# Bağımlılıklar
+node_modules/
+
+# Production ve build çıktıları
+dist/
+build/
+coverage/
+
+# Ortam değişkenleri ve gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# Log dosyaları
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editör ve işletim sistemi dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Geçici dosyalar
+*.tmp
+*.temp
