@@ -22,7 +22,6 @@ Bafko, görevleri tek bir çalışma alanında oluşturmayı, takip etmeyi ve ta
 - React DOM
 - JavaScript (ES Modules)
 - CSS
-- Google Fonts: DM Sans ve Plus Jakarta Sans
 
 ## Gereksinimler
 
@@ -43,18 +42,12 @@ npm install
 npm run dev
 ```
 
-Vite, uygulamanın adresini terminalde gösterecektir. Varsayılan olarak uygulama genellikle `http://localhost:5173` adresinde açılır.
+Vite, uygulamanın adresini terminalde gösterecektir. Varsayılan olarak uygulama `http://localhost:5173` adresinde açılır.
 
 ## Üretim derlemesi
 
 ```bash
 npm run build
-```
-
-Oluşturulan üretim dosyalarını yerel olarak önizlemek için:
-
-```bash
-npm run preview
 ```
 
 ## Proje yapısı
@@ -82,7 +75,7 @@ npm run preview
 
 ## Veri saklama
 
-Uygulama herhangi bir backend veya veritabanı kullanmaz. Görevler, tarayıcının `localStorage` alanında `bafko-tasks` anahtarıyla saklanır. Bu nedenle veriler aynı tarayıcı ve cihaz içinde korunur; farklı cihazlar arasında senkronize edilmez.
+Uygulama herhangi bir backend veya veritabanı kullanmaz. Görevler, tarayıcının `localStorage` alanında `bafko-tasks` anahtarıyla saklanır. Bu nedenle veriler aynı tarayıcı ve cihaz içinde korunur.
 
 Tarayıcı depolamasını temizlemek görevleri de siler.
 
@@ -93,7 +86,3 @@ Tarayıcı depolamasını temizlemek görevleri de siler.
 3. Görevi tamamlamak için görev kartındaki daire simgesine tıklayın.
 4. Kartın üzerine gelerek düzenleme veya silme seçeneklerini kullanın.
 5. Arama alanıyla başlık ya da açıklama içinde filtreleme yapın.
-
-## Lisans
-
-Bu proje özel kullanım için hazırlanmıştır.
